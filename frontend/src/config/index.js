@@ -1,7 +1,7 @@
 // frontend/src/config/index.js
 const config = {
-    API_URL: process.env.REACT_APP_API_URL || 'http://localhost:5300',
-    WS_URL: process.env.REACT_APP_WS_URL || 'ws://http://localhost:3001',
+    API_URL: process.env.REACT_APP_API_URL || 'http://localhost:5100',
+    WS_URL: process.env.REACT_APP_WS_URL || 'ws://http://localhost:3000',
     ENV: process.env.REACT_APP_ENV || 'development',
     
     // Add other configuration variables
