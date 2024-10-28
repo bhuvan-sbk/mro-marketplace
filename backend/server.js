@@ -18,8 +18,8 @@ const app = express();
 app.use(cors({
   origin: [
     'http://localhost:3000',
-    'http://localhost:3001'  // Add your frontend URL
-], // Add your frontend URL
+    'your-vercel-frontend-url'  // Add your frontend URL
+],  
   credentials: true
 }));
 app.use(cors());
