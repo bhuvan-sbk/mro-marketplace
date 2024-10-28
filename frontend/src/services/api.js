@@ -4,8 +4,7 @@ import config from '../config/index';
 
 // Create axios instance
 const api = axios.create({
-  baseURL: 'http://localhost:5300/api', // or process.env.REACT_APP_API_URL
-  timeout: 15000,
+  baseURL: process.env.REACT_APP_API_URL || '/.netlify/functions/api',
   headers: {
     'Content-Type': 'application/json'
   }
